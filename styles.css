@@ -62,9 +62,10 @@ h3, p {
 
 .right-section1 {
   display: flex;
+  flex-direction: column;
   flex: 1;
   background-color: rgb(215, 215, 215);
-  padding-top: 90px;
+  padding-top: 50px;
   padding-left: 30px;
 }
 

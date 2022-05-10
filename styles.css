@@ -1,0 +1,204 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(107, 21, 21);
+}
+
+h3, p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .form-main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 30%;
+  background-image:   url(pexels-rafael-pires-943150.jpg);
+  background-position: center;
+  background-size: cover;
+  }
+
+  .banner {
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    color: white;
+    font-family: Norse;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 10px;
+   
+  }
+
+
+
+  .photo-credit {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 10px;
+  } 
+
+
+ .right-section {
+   display: flex;
+   flex-direction: column; 
+   width: 40%;
+   height: 100vh;
+}
+
+.right-section1 {
+  display: flex;
+  flex: 1;
+  background-color: rgb(215, 215, 215);
+  padding-top: 90px;
+  padding-left: 30px;
+}
+
+.right-section2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+
+.form-group label{
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+.form-details {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.form-right {
+  margin-left: 50px;
+}
+
+.form-details input{
+  box-shadow: inset 0px 0px 3px silver,0 0 0 #2b6466;
+  border: 2px solid silver;
+  outline: none;
+  margin-top: 5px;
+  transition: box-shadow 1s;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form-details input:focus {
+  box-shadow: inset 0px 0px 0 silver, 0 0 3px #2b6466;
+}
+
+.password-error {
+  margin-top: 0px;
+  font-size: 10px;
+  color: red;
+}
+
+
+.right-section3 {
+  flex: 1;
+  background-color: rgb(215, 215, 215);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+
+
+#create-account {
+  border: none;
+  background-color: #2b6466;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
+
+
+
+
+
+@media screen and (max-width: 850px) {
+
+  p{
+font-size: 12px;
+  }
+
+
+  .form-main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   width: 100vw;
+  }
+
+  .left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .banner {
+    margin-top: 5vh;
+  }
+
+  .right-section{ 
+    width: 100vw; 
+    height: 50vh;
+  }
+
+  .form-group {
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .form-details {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 10px;
+}
+
+  .form-right {
+    margin-left: 0px;
+  }
+
+  .form-details input{
+    box-sizing: border-box;
+    width: 50%;
+  }
+
+}
